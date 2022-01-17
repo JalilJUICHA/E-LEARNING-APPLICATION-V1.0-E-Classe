@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(90deg, rgba(64, 205, 235, 1) 46%, rgba(173, 245, 196, 1) 90%, rgba(243, 247, 174, 1) 100%);
+}
+
+.container {
+    height: 550px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
