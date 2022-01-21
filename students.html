@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-LEARNING-APPLICATION /Students</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <script src="bootstrap5/js/bootstrap.min.js"></script>
+    <script src="bootstrap5/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container-fluid">
+        <div class="row flex-nowrap">
+           
+            <div class="d-flex flex-column col-2 p-1 bg-sidebar vh-100">
+                <div class="mt-2 w-100">
+                    <h2 class="h2 border-start ps-2 ecls ">E-class</h2>
+                </div>
+                <div class="text-center d-none d-lg-inline-block ">
+                    <img src="./images/pexels-photo-2379004 1.png" class="rounded-circle" style="max-width: 100PX;">
+                    <h5 class="mt-2">Joe</h5>
+                    <p>Admin</p>
+                </div>
+                <nav class="mt-5 ">
+                    <ul class="nav d-flex flex-column gap-3">
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-home"></i>
+                                Home</a>
+                                <i class="fa fa-home d-sm-none mt-4 fs-3 text-center"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                Courses</a>
+                                <i class="fa fa-bookmark d-sm-none mt-4 fs-3 text-center" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                Students</a>
+                                <i class="fa fa-graduation-cap d-sm-none mt-4 fs-3 " aria-hidden="true"></i>             
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                Payment</a>
+                                <i class="fa fa-usd d-sm-none mt-4 fs-3 ps-2" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                Report</a>
+                                <i class="fa fa-file-text-o d-sm-none mt-4 fs-3" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-sliders" aria-hidden="true"></i>
+                                Setting</a>
+                                <i class="fa fa-sliders d-sm-none mt-4 fs-3" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mt-4">
+                    <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">Logout
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </a>
+                    <i class="fa fa-sign-out d-sm-none fs-3" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="d-flex justify-content-between mt-3">
+                    <div class="">
+                        <a href="#"><i class="fa fa-chevron-circle-left text-muted align-content-center fs-4"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-3">
+                        <form>
+                            <input class="form-control me-2" type="search" placeholder="Search... ">
+                        </form>
+                        <div>
+                            <a href="#"><i class="fa fa-bell-o text-muted fs-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================= -->
+                <div class="row mt-5 flex-row">
+                    <div class="col-10  d-flex flex-nowrap justify-content-between w-100">
+                        <h2>Students List</h2>
+                        <div style="font-size: 1.3rem;">
+                            <i class="fa fa-chevron-up fs-6 "  aria-hidden="true"></i>
+
+                            <a href="#" class="btn btn-primary text-uppercase">add new student</a>
+                        </div>
+                    </div>
+                    <hr class="m-auto" style="width: 100%;">
+                </div>
+                <div class="row mt-2 px-2 table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr class="">
+                                <th scope="col"></th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Enroll number</th>
+                                <th scope="col">Date of admission</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="flex-column">
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle ">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                            <tr class="mt-1">
+                                <th scope="row">
+                                    <img src="./images/students.png"  width="65" height="55">
+                                </th>
+                                <td class="align-middle ">Joe</td>
+                                    <td class="align-middle">Joe@gmail.com</td>
+                                        <td class="align-middle">061234567</td>
+                                            <td class="align-middle">8785887767</td>
+                                                <td class="align-middle">26-Nov-21</td>
+                                                    <td class="text-primary align-middle">
+                                                        <div class="d-flex flex-nowrap">
+                                                            <i class="fa fa-pencil " aria-hidden="true"></i>
+                                                            <i class="fa fa-trash-o ms-2 d-inline" aria-hidden="true"></i>
+                                                        </div>
+                                                    </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

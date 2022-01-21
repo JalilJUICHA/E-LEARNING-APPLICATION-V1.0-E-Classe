@@ -20,7 +20,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-secondary:#CDCDCD;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -30,6 +30,16 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+.text-white{
+  color: #fff;
+}
+.adm-img{
+  border-radius: 50%;
+}
+.bg-sidebar{
+  background: #FAFFC1;
 }
 
 *,
@@ -2193,8 +2203,9 @@ progress {
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #6c757d;
+  color: var(--bs-secondary );
   opacity: 1;
+  font-size: 0.9rem;
 }
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
@@ -6369,7 +6380,8 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 2px 5px 10px 0px #0000001A;
+
 }
 
 .shadow-sm {
@@ -6466,7 +6478,8 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #E5E5E5 !important;
+
 }
 
 .border-0 {
@@ -6498,7 +6511,8 @@ textarea.form-control-lg {
 }
 
 .border-start {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 5px solid #00C1FE !important;;
+  
 }
 
 .border-start-0 {
@@ -6599,6 +6613,10 @@ textarea.form-control-lg {
 
 .h-50 {
   height: 50% !important;
+}
+
+.h-85 {
+  height: 85% !important;
 }
 
 .h-75 {

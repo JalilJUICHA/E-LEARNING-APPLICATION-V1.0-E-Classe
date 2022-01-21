@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-LEARNING-APPLICATION /Dashboard</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <script src="bootstrap5/js/bootstrap.min.js"></script>
+    <script src="bootstrap5/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="container-fluid">
+        <div class="row">
+        <!-- Side Bar -->
+            <div class="d-flex flex-column col-2 p-1 bg-sidebar vh-100">
+                <div class="mt-2 w-100">
+                    <h2 class="h2 border-start ps-2 ">E-class</h2>
+                </div>
+                <div class="text-center d-none d-lg-inline-block ">
+                    <img src="./images/pexels-photo-2379004 1.png" class="rounded-circle" style="max-width: 100PX;">
+                    <h5 class="mt-2">Joe</h5>
+                    <p>Admin</p>
+                </div>
+                <nav class="mt-5 ">
+                    <ul class="nav d-flex flex-column gap-3">
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-home"></i>
+                                Home</a>
+                            <i class="fa fa-home d-sm-none mt-4 fs-3 text-center"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                Courses</a>
+                            <i class="fa fa-bookmark d-sm-none mt-4 fs-3 text-center" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                Students</a>
+                            <i class="fa fa-graduation-cap d-sm-none mt-4 fs-3 " aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                Payment</a>
+                            <i class="fa fa-usd d-sm-none mt-4 fs-3 ps-2" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                Report</a>
+                            <i class="fa fa-file-text-o d-sm-none mt-4 fs-3" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">
+                                <i class="fa fa-sliders" aria-hidden="true"></i>
+                                Setting</a>
+                            <i class="fa fa-sliders d-sm-none mt-4 fs-3" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mt-4">
+                    <a href="" class="btn text-start nav-link  ps-sm-2 text-dark d-none d-sm-inline">Logout
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </a>
+                    <i class="fa fa-sign-out d-sm-none fs-3" aria-hidden="true"></i>
+                </div>
+            </div>
+        
+            <div class="col-10">
+                <!-- Nav Bar -->
+                <div class="d-flex justify-content-between mt-3">
+                    <div class="">
+                        <a href="#"><i class="fa fa-chevron-circle-left text-muted align-content-center fs-4"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-3">
+                        <form>
+                            <input class="form-control me-2" type="search" placeholder="Search... ">
+                        </form>
+                        <div>
+                            <a href="#"><i class="fa fa-bell-o text-muted fs-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="row mt-3 ">
+                    <div class="col-sm-10 col-md-5 col-lg-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #F0F9FF
+                        ; color: #74C1ED;">
+                            <div class="card-body">
+                                <i class="fa fa-graduation-cap fa-lg"></i>
+                                <p class="text-muted ">Students</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold fs-5">
+                                    243
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-5 col-lg-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #FEF6FB
+                        ; color: #EE95C5;">
+                            <div class="card-body">
+                                <i class="fa fa-bookmark fa-lg"></i>
+                                <p class="text-muted">Course</p>
+                                <p class="d-flex justify-content-end text-dark fw-bold fs-5">
+                                    13
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-5 col-lg-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #FEFBEC
+                        ; color: #00C1FE;">
+                            <div class="card-body">
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                <p class="text-muted">Payments</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold fs-5">
+                                    Dhs 556, 000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-5 col-lg-3">
+                        <div class="card bg-primary" style="font-size: 1.5rem;
+                        ; color: #fff;">
+                            <div class="card-body">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <p class="text-muted">Users</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold fs-5">
+                                    3
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
